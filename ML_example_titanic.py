@@ -2,7 +2,7 @@
 """
 Created on Wed Jan 11 14:14:19 2017
 
-@author: KHT
+#this is a working copy of the ml titanic project you will find on kaggle
 """
 # manually cleaning workspace
 #%reset
