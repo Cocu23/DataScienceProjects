@@ -3,8 +3,7 @@
 ####################################################################
 #
 ####################################################################
-load("C:/Presto Workspace/R_scripts/R workspaces/kht_preprocessing_v9.RData")
-# save.image("C:/Presto Workspace/R_scripts/R workspaces/kht_preprocessing_v10.RData")
+load("C://R_scripts/R workspaces/kht_preprocessing_v9.RData")
 ####################################################################
 #
 ############# Content ###############
@@ -45,14 +44,12 @@ library(reshape2)
 library(tree)
 library(randomForest)
 
-# set Workspace
-setwd('C://Presto Workspace/R_scripts/R workspaces')
 
 # DB Import via ODBC:
 dbhandle <- odbcDriverConnect(
   'driver={SQL Server};
   server=CALIDCSQLPWV089\\sql2016;  
-  database=PRESTO_Data;
+  database=Database;
   trusted_connection=true')
 
 # Load Data table from SQL Server
